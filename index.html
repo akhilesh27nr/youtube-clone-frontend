@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>YouTube Clone</title>
+    <title>YouTube.com Clone</title>
 
     <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="video.css">
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="sidebar.css">
-    <link rel="stylesheet" href="video.css">
 </head>
 
 <body>
@@ -24,7 +24,6 @@
                 <img class="search-icon" src="search.svg">
                 <div class="tooltip">Search</div>
             </button>
-
             <button class="voice-search-button">
                 <img class="voice-search-icon" src="voice-search.png">
                 <div class="tooltip">Voice Search</div>
@@ -32,13 +31,13 @@
         </div>
 
         <div class="right_section">
-            <img class="upload-icon" src="vedio-symbol.webp">
-
+            <div class="upload-icon-container">
+                <img class="upload-icon" src="vedio-symbol.webp">
+            </div>
             <div class="noti-icon-container">
                 <img class="noti-icon" src="notification-symbol.svg">
                 <div class="noti-count">3</div>
             </div>
-
             <img class="my-pic-icon" src="my-pic.jpg">
         </div>
     </div>
@@ -49,27 +48,22 @@
             <img src="icons8-home.svg">
             <div>Home</div>
         </div>
-
         <div class="sidebar-link">
             <img src="explore-svgrepo-com.svg">
             <div>Explore</div>
         </div>
-
         <div class="sidebar-link">
             <img src="subscription_32djkys9poli.svg">
             <div>Subscription</div>
         </div>
-
         <div class="sidebar-link">
             <img src="youtube-shorts-logo-15253.svg">
             <div>Shorts</div>
         </div>
-
         <div class="sidebar-link">
             <img src="youtube-music.svg">
             <div>YouTube Music</div>
         </div>
-
         <div class="sidebar-link">
             <img src="Settings by iconSvg.co.svg">
             <div>Settings</div>
@@ -79,7 +73,7 @@
     <!-- VIDEO GRID -->
     <div class="video_grid">
 
-        <!-- 1 -->
+        <!-- VIDEO 1 -->
         <div class="video_preview">
             <div class="htmlcss_row">
                 <img class="htmlcss" src="htmlcss.avif">
@@ -90,14 +84,14 @@
                     <img class="p_pic" src="channels4_profile.jpg">
                 </div>
                 <div class="video_info">
-                    <p class="video-title">Learning HTML and CSS in 6 Hours</p>
-                    <p class="video_auth">Contents and Notes</p>
+                    <p class="video-title">Learning the <strong>HTML and CSS</strong> in 6 hours</p>
+                    <p class="video_auth">Contents and notes</p>
                     <p class="video-stat">3M views • 6 months ago</p>
                 </div>
             </div>
         </div>
 
-        <!-- 2 -->
+        <!-- VIDEO 2 -->
         <div class="video_preview">
             <div class="htmlcss_row">
                 <img class="htmlcss" src="food.avif">
@@ -108,14 +102,14 @@
                     <img class="p_pic" src="nc.jpg">
                 </div>
                 <div class="video_info">
-                    <p class="video-title">Cooking Fried and Non-Fried Chicken</p>
+                    <p class="video-title">Cooking <strong>Fried and Non-Fried</strong> Chicken</p>
                     <p class="video_auth">Recipes and Tips</p>
-                    <p class="video-stat">10M views • 12 months ago</p>
+                    <p class="video-stat">10M views • 1 year ago</p>
                 </div>
             </div>
         </div>
 
-        <!-- 3 -->
+        <!-- VIDEO 3 -->
         <div class="video_preview">
             <div class="htmlcss_row">
                 <img class="htmlcss" src="rahul.avif">
@@ -126,14 +120,14 @@
                     <img class="p_pic" src="ch_pic_3.jpg">
                 </div>
                 <div class="video_info">
-                    <p class="video-title">Testing Illegal Cricket Bats</p>
+                    <p class="video-title">We Tested <strong>Illegal</strong> Cricket Bats</p>
                     <p class="video_auth">The Switch | Kevin Peirston</p>
                     <p class="video-stat">4.5M views • 3 years ago</p>
                 </div>
             </div>
         </div>
 
-        <!-- 4 -->
+        <!-- VIDEO 4 -->
         <div class="video_preview">
             <div class="htmlcss_row">
                 <img class="htmlcss" src="0-hero.jpg">
@@ -144,14 +138,14 @@
                     <img class="p_pic" src="ch_pic_4.jpg">
                 </div>
                 <div class="video_info">
-                    <p class="video-title">From ZERO to FAANG 🚀</p>
+                    <p class="video-title">From <strong>ZERO</strong> to <strong>FAANG</strong> 🚀</p>
                     <p class="video_auth">Tech Career Hub</p>
                     <p class="video-stat">3.1M views • 6 months ago</p>
                 </div>
             </div>
         </div>
 
-        <!-- 5 -->
+        <!-- VIDEO 5 -->
         <div class="video_preview">
             <div class="htmlcss_row">
                 <img class="htmlcss" src="p_mindset.avif">
@@ -162,14 +156,14 @@
                     <img class="p_pic" src="ch_pic_5.jpg">
                 </div>
                 <div class="video_info">
-                    <p class="video-title">Change Your Mindset</p>
+                    <p class="video-title">Change Your <strong>Mindset</strong>, Change Your Life</p>
                     <p class="video_auth">Mindset Mentor</p>
                     <p class="video-stat">9.6M views • 1 year ago</p>
                 </div>
             </div>
         </div>
 
-        <!-- 6 -->
+        <!-- VIDEO 6 -->
         <div class="video_preview">
             <div class="htmlcss_row">
                 <img class="htmlcss" src="gym.avif">
@@ -180,14 +174,14 @@
                     <img class="p_pic" src="ch_pic_6.jpg">
                 </div>
                 <div class="video_info">
-                    <p class="video-title">Fat to Fit in 90 Days</p>
+                    <p class="video-title">Go from <strong>Fat to Fit</strong> in 90 Days</p>
                     <p class="video_auth">FitLife Official</p>
                     <p class="video-stat">4.9M views • 3 years ago</p>
                 </div>
             </div>
         </div>
 
-        <!-- 7 -->
+        <!-- VIDEO 7 -->
         <div class="video_preview">
             <div class="htmlcss_row">
                 <img class="htmlcss" src="how_to.avif">
@@ -198,14 +192,14 @@
                     <img class="p_pic" src="ch_pic_7.jpg">
                 </div>
                 <div class="video_info">
-                    <p class="video-title">Learn Faster Than 99% People</p>
+                    <p class="video-title">How to <strong>Learn Faster</strong> Than 99%</p>
                     <p class="video_auth">Productivity Lab</p>
                     <p class="video-stat">10.8M views • 1 year ago</p>
                 </div>
             </div>
         </div>
 
-        <!-- 8 -->
+        <!-- VIDEO 8 -->
         <div class="video_preview">
             <div class="htmlcss_row">
                 <img class="htmlcss" src="rcb.avif">
@@ -216,14 +210,14 @@
                     <img class="p_pic" src="ch_pic_8.jpg">
                 </div>
                 <div class="video_info">
-                    <p class="video-title">RCB Coming Back Stronger 🔥</p>
+                    <p class="video-title"><strong>RCB</strong> Coming Back Stronger 🔥</p>
                     <p class="video_auth">Love Beats</p>
                     <p class="video-stat">4.7M views • 3 years ago</p>
                 </div>
             </div>
         </div>
 
-        <!-- 9 -->
+        <!-- VIDEO 9 -->
         <div class="video_preview">
             <div class="htmlcss_row">
                 <img class="htmlcss" src="song.jpg">
@@ -234,7 +228,7 @@
                     <img class="p_pic" src="ch_pic_9.jpg">
                 </div>
                 <div class="video_info">
-                    <p class="video-title">Pure Love in 8K • 60 FPS</p>
+                    <p class="video-title">Experience <strong>Pure Love</strong> in 8K • 60FPS</p>
                     <p class="video_auth">The Switch | Kevin Peirston</p>
                     <p class="video-stat">4.5M views • 3 years ago</p>
                 </div>
